@@ -36,11 +36,12 @@
   }
 
   a {
-    color: $color-gray-500;
+    color: #121212;
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     border-bottom: solid 2px transparent;
+    font-family: "Quicksand", sans-serif;
 
     @media (min-width: 480px) {
       padding: 0.5em;
@@ -48,7 +49,7 @@
     }
 
     &:hover {
-      color: $color-primary;
+      color: rgb(41, 41, 41);
     }
   }
 }
@@ -73,7 +74,7 @@
     }
     &:hover {
       & > a {
-        color: $color-primary;
+        color: rgb(41, 41, 41);
       }
 
       .navSubMenu {
